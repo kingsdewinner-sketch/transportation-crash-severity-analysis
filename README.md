@@ -14,6 +14,14 @@ Exploratory Data Analysis
 ## Dataset
 NYC Open Data Motor Vehicle Collision Dataset
 
+## Data Validation & Rigor
+To ensure the analytical integrity of the 144k+ records, a multi-stage data cleaning and validation process was conducted using **Excel**:
+
+* **Data Filtering:** Narrowed the scope to recent years (2023–2024) to ensure the analysis reflects current urban safety trends and infrastructure.
+* **Inconsistency Removal:** Identified and removed duplicate entries and resolved conflicting records where crash attributes did not align with official NYC Open Data schemas.
+* **Spatial Validation:** Cross-referenced geographic coordinates (Latitude/Longitude) against borough labels and zip codes to ensure 100% spatial accuracy for mapping.
+* **Handling Missing Values:** Performed targeted imputation for contributing factors and vehicle types, ensuring that "Inattentive Driving" and "Speeding" metrics were not skewed by null entries.
+
 ## Key Analysis
 - Crash severity index creation
 - Temporal crash pattern analysis
